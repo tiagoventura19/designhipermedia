@@ -1,0 +1,320 @@
+.col-xl-5 {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 100px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.col-xl-4 {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.col-xl-6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.navbar {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.form-inline input {
+    vertical-align: middle;
+    margin: 5px 15px 5px 0;
+    padding: 10px 120px 10px 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: 'Open Sans';
+}
+
+.form-inline button {
+    padding: 11px 50px;
+    background-color: rgb(58, 102, 224);
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    box-shadow: 2px 3px rgba(180, 180, 180, 0.15);
+}
+
+.form-inline button:hover {
+    background-color: rgb(117, 145, 230);
+}
+
+@media (max-width: 800px) {
+    .form-inline input {
+        margin: 10px 0;
+    }
+    .form-inline {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+.stretched-link:hover {
+    color: #00e1cf
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+blockquote {
+    border-left: none
+}
+
+.quote-badge {
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.quote-box {
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    width: 325px;
+    box-shadow: 2px 2px 6px 6px rgba(180, 180, 180, 0.1);
+}
+
+.quotation-mark {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.quote-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    margin-top: -50px;
+    line-height: 1.8;
+}
+
+.form-inline2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.form-inline2 input {
+    vertical-align: middle;
+    margin: 60px 10px 25px 150px;
+    padding: 10px 320px 10px 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: 'Open Sans';
+}
+
+.form-inline2 button {
+    padding: 11px 50px;
+    margin: 0 0 0 150px;
+    background-color: rgb(58, 102, 224);
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    box-shadow: 2px 2px rgba(32, 32, 32, 0.1);
+}
+
+.form-inline2 button:hover {
+    background-color: rgb(117, 145, 230);
+    box-shadow: 3px 3px 3px 3px rgba(32, 32, 32, 0.1);
+}
+
+.site-footer {
+    background-color: hsl(243, 87%, 12%);
+    padding: 45px 0 20px;
+    font-size: 13px;
+    line-height: 24px;
+    color: white;
+    line-height: 2.6;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    display: block;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: hsl(238, 22%, 44%);
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.site-footer .social-icons {
+    text-align: right
+}
+
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    border: solid white 1px;
+    background-color: transparent;
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+        text-align: center
+    }
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons a {
+    background-color: #eceeef;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+    background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+    background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #007bb6
+}
+
+.social-icons a.dribbble:hover {
+    background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+}
